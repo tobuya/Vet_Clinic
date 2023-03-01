@@ -38,3 +38,4 @@ COMMIT;
 SELECT * FROM animals;
 
 SELECT count(*) from animals;
+SELECT count(*) from animals WHERE escape_attempts = 0;
