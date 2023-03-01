@@ -30,7 +30,6 @@ REQUIRED SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -114,7 +113,6 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-
 Example command:
 
 ```sh
@@ -122,11 +120,9 @@ Example command:
  Either psql cli or pgAdmin4 GUI to interact with the database.
 ```
 
-
 ### Setup
 
 Clone this repository to your desired folder:
-
 
 Example commands:
 
@@ -134,24 +130,24 @@ Example commands:
   cd my-folder
   git clone git@github.com:tobuya/Vet_Clinic.git
 ```
+
 -
 
 ### Install
 
 Install this project with:
 
-
 Example command:
 
 ```sh
 - Download and install postgress database to run this project.
 ```
+
 -
 
 ### Usage
 
 To run the project, execute the following command:
-
 
 ```sh
 - Use schema.sql to create all tables.
@@ -162,6 +158,7 @@ To run the project, execute the following command:
 
 - run on a newly created database.
 ```
+
 -
 
 <!-- ### Run tests
@@ -193,7 +190,6 @@ Example:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
 
 👤 **Thomas Obuya**
 
