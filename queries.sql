@@ -40,3 +40,4 @@ SELECT * FROM animals;
 SELECT count(*) FROM animals;
 SELECT count(*) FROM animals WHERE escape_attempts = 0;
 SELECT AVG(weight_kg) FROM animals;
+SELECT neutered, COUNT(escape_attempts) FROM animals GROUP BY neutered;
