@@ -47,3 +47,4 @@ SELECT species, AVG(escape_attempts) FROM animals WHERE date_of_birth >= '1990-0
 SELECT a.name FROM animals a JOIN owners o ON a.owner_id = o.id WHERE o.id = 4;
 SELECT a.name FROM animals a JOIN species s ON a.species_id = s.id WHERE s.id = 1;
 SELECT o.full_name, a.name FROM owners o LEFT JOIN animals a ON o.id = a.owner_id;
+SELECT s.name, COUNT(*) FROM animals a JOIN species s ON a.species_id = s.id GROUP BY s.name;
