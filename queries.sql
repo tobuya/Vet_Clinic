@@ -56,3 +56,9 @@ ON a.species_id = s.id
 JOIN owners o
 ON a.owner_id = o.id 
 WHERE o.full_name = 'Jennifer Orwell' AND s.name = 'Digimon';
+
+SELECT a.name, a.escape_attempts, o.full_name
+FROM animals a
+JOIN owners o ON a.owner_id = o.id 
+JOIN species s ON a.species_id = s.id
+WHERE a.escape_attempts = 0 AND o.full_name = 'Dean Winchester';
